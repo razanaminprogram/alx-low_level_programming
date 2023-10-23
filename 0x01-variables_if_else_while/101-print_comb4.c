@@ -3,8 +3,11 @@
  * main - A program that prints combinations of three nums
  * Return: 0 (Success)
  */
-int main() {
+int main(void)
+{
+
 int i, j, k;
+
 for (i = 0; i < 8; i++)
 {
 for (j = i + 1; j < 9; j++)
@@ -23,5 +26,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return 0;
+return (0);
 }
