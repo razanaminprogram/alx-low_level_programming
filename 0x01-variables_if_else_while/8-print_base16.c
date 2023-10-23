@@ -1,21 +1,21 @@
 #include <stdio.h>
 /**
- * main - A program that prints all numbers of base 16 in lowercase
+ * main - A program that prints 0123456789abcdef
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-int d;
-char c;
+int a;
+char b;
 
-for (d = '0'; d <= 9; d++)
+for (a = 0; a <= 9; a++)
 {
-putchar(d + '0');
+putchar(a + '0');
 }
-for (c = 'a'; c <= 'f'; c++)
+for (b = 'a'; b <= 'f'; b++)
 {
-putchar(c);
+putchar(b);
 }
 putchar('\n');
 return (0);
