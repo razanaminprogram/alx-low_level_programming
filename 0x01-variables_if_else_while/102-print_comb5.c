@@ -8,7 +8,7 @@ int main(void)
 
 int a, b;
 
- for (a = 0; a < 100; a++)
+for (a = 0; a < 100; a++)
 {
 for (b = a; b < 100; b++)
 {
@@ -26,7 +26,7 @@ putchar('0' + d2);
 if (a != 99 || b != 99)
 {
 putchar(',');
- putchar(' ');
+putchar(' ');
 }
 }
 }
