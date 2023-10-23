@@ -16,6 +16,8 @@ int c1 = a / 10;
 int c2 = a % 10;
 int d1 = b / 10;
 int d2 = b % 10;
+if (a <= b)
+{
 putchar('0' + c1);
 putchar('0' + c2);
 putchar(' ');
@@ -25,6 +27,7 @@ if (a != 99 || b != 99)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
