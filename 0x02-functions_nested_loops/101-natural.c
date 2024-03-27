@@ -1,23 +1,22 @@
 #include "stdio.h"
 
 /**
- * main - program that computes and prints the sum of all the multiples of 3 or 5 below 1024
+ * main - program print summation
  * Return - 0 Successful
  */
 
 int main(void)
 {
-	int i, sum;
+	int i, sum = 0;
 
 for (i = 0; i < 1024; i++)
 {
- if (i % 3 == 0 || i % 5 == 0)
-        {
-		sum = 0;
-		sum = sum + i;
-	}
+if (i % 3 == 0 || i % 5 == 0)
+{
+sum = sum + i;
 }
- printf("%d", sum);
- return (0);
- }
+}
+printf("%d", sum);
+return (0);
+}
 
