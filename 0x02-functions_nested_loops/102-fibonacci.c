@@ -9,7 +9,7 @@
 int main(void)
 {
     int i, x;
-    for (i = 1; i >= 50; i++)
+    for (i = 1; i <= 50; i++)
     {
         x=2*i-1;
         printf("%d\n", x);
