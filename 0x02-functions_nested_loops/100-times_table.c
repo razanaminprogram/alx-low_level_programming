@@ -9,18 +9,19 @@
 
 void print_times_table(int n)
 {
-	int x, i, m ;
-	if (n >= 0 && n <= 15)
-	{
-		for(i = 0; i <= n; i++)
-		{
-     for(m = 0; m <= n; m++)
-     {
-	     x= n * m;
-	     printf("%d, ", x);
-     }
-     printf("\n");
-		}
-	}
-	}
+	int x, i, m;
+	
+if (n >= 0 && n <= 15)
+{
+for (i = 0; i <= n; i++)
+{
+for (m = 0; m <= n; m++)
+{
+x = n * m;
+printf("%d,  ", x);
+}
+printf("\n");
+}
+}
+}
 
