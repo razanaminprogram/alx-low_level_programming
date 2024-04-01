@@ -2,7 +2,7 @@
 
 /**
  * _strcat - concatenates two strings
- * @src: the string will be appended 
+ * @src: the string will be appended
  * @dest: the string that will be appended to
  * Return: the pointer to dest
  */
