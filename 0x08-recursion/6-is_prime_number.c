@@ -6,7 +6,7 @@ int check_prime(int n, int i);
 /**
  * is_prime_number - checks for prime numbers
  * @n: the number to check
- * Return
+ * Return: integer
  */
 
 int is_prime_number(int n)
